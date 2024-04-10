@@ -204,3 +204,53 @@ h2 {
 .card button:hover {
     background-color: #ad4929;
 }
+
+#portfolio {
+    height: 250px;
+
+    margin-bottom: 120px;
+
+    background-image: url(img/bonecos.png);
+    background-size: 250px;
+
+    background-repeat: repeat;
+
+    background-attachment: fixed;
+
+    position: relative;
+}
+
+.filtro {
+    height: 100%;
+    width: 100%;
+
+    background-color: #47208bc2;
+
+    position: absolute;
+    top: 0;
+}
+
+#portfolio .container-grid {
+    height: 100%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+
+}
+
+#portfolio a {
+    width: fit-content;
+    
+    font-family: "Anta";
+    font-size: 28px;
+
+    color: white;
+
+    z-index: 1;
+}
+
+#portfolio a:hover {
+    transform: scale(1.05);
+}
