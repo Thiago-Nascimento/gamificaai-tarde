@@ -589,7 +589,7 @@ footer .container-grid {
     }    
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 520px) {
     .container-grid {
         width: 90%;
     }
@@ -604,5 +604,88 @@ footer .container-grid {
 
     .conteudo-banner p {
         font-size: 24px;
+    }
+
+    nav.menu {
+        width: 100%;
+
+        display: none;
+    }
+
+    #sobre {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+
+    #sobre p {
+        width: 90%;
+        margin: 0 auto;
+        margin-bottom: 20px;
+    }
+
+    #cases.container-grid {
+        width: 100%;
+        margin: unset;
+    }
+
+    .container-cards {
+        flex-wrap: nowrap;
+
+        gap: 40px;
+
+        overflow-x: auto;
+    }
+
+    .card {
+        height: 400px;
+        width: 280px;        
+
+        flex-basis: unset;
+    }
+
+    .card:first-child {
+        margin-left: 30px;
+    }
+
+    .card:last-child {
+        margin-right: 30px;
+    }
+
+    #portfolio {
+        margin-bottom: 0;
+    }
+
+    #contato {
+        padding-top: 150px;
+
+        background-color: var(--roxo-gamifica);
+        color: white;
+    }
+
+    #contato h2 {
+        margin-bottom: 0px;
+    }
+
+    #contato form {
+        width: 100%;
+        border-radius: 0;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    header img {
+        width: 160px;
+    }
+
+    header svg {
+        width: 40px;
+    }
+
+    .conteudo-banner p {
+        font-size: 20px;
+    }
+
+    footer img {
+        width: 200px;
     }
 }
