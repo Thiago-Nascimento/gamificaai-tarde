@@ -120,11 +120,11 @@ header button {
 
 @keyframes digitando {
     from {
-        width: 0
+        width: 0;
     }
 
     to {
-        width: 100%
+        width: 100%;
     }
 }
 
@@ -465,6 +465,14 @@ footer .container-grid {
 
 .icones-redes a:hover {
     color: var(--laranja-gamifica);
+}
+
+.menu-fechado {
+    display: none;
+}
+
+#icone-barras {
+    display: none;
 }
 
 @media screen and (max-width: 1300px) {
