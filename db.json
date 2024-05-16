@@ -1,20 +1,32 @@
 {
-    "cases": [
-        {
-            "imagem": "https://unsplash.it/600/400?image=14",
-            "descricao": "Uma empresa de tecnologia lança um desafio de gamificação onde os funcionarios devem propor e implementar ideias inovadoras."
-        },
-        {
-            "imagem": "https://unsplash.it/600/400?image=41",
-            "descricao": "Uma empresa de consultoria cria uma narrativa interativa de gamificação para seu programa de treinamento."
-        },
-        {
-            "imagem": "https://unsplash.it/600/400?image=23",
-            "descricao": "Uma empresa de vendas implementa uma competição gamificada entre equipes que competem pelo topo do ranking"
-        },
-        {
-            "imagem": "https://unsplash.it/600/400?image=62",
-            "descricao": "Uma empresa de saúde promove o bem-estar dos funcionários através de um desafio de gamificação de condicionamento físico"
-        }
-    ]
+  "cases": [
+    {
+      "imagem": "https://unsplash.it/600/400?image=14",
+      "descricao": "Uma empresa de tecnologia lança um desafio de gamificação onde os funcionarios devem propor e implementar ideias inovadoras.",
+      "id": "9646"
+    },
+    {
+      "imagem": "https://unsplash.it/600/400?image=41",
+      "descricao": "Uma empresa de consultoria cria uma narrativa interativa de gamificação para seu programa de treinamento.",
+      "id": "6f5c"
+    },
+    {
+      "imagem": "https://unsplash.it/600/400?image=23",
+      "descricao": "Uma empresa de vendas implementa uma competição gamificada entre equipes que competem pelo topo do ranking",
+      "id": "b512"
+    },
+    {
+      "imagem": "https://unsplash.it/600/400?image=62",
+      "descricao": "Uma empresa de saúde promove o bem-estar dos funcionários através de um desafio de gamificação de condicionamento físico",
+      "id": "6d71"
+    }
+  ],
+  "solicitacoes": [
+    {
+      "id": "539a",
+      "nome": "Thiago",
+      "email": "thiago@email.com",
+      "descricao": "Os alunos de jogos digitais, são \"excelentes\""
+    }
+  ]
 }
